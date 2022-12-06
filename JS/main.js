@@ -1,8 +1,13 @@
 //  Calculadora simple (suma, resta multiplicación y división)
 
-//Saludar Tutor con una función
+//Pedir nombre al usuario
+
+let user = prompt( "Ingresa tu nombre");
+
+
+//Saludar  con una función
 function saludar (){
-    alert ("Hola Lucas, bienvenido a mi primera entrega. Es una calculadora simple: sirve para sumar, restar, multiplicar o dividir.");
+    alert ("Hola " + user + ", bienvenido a mi primera entrega. Es una calculadora simple: sirve para sumar, restar, multiplicar o dividir.");
 }
 saludar();
 
