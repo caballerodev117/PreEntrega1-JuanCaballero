@@ -34,6 +34,9 @@ function multiplicar (){
 }
 function dividir () {
     resultado = num1 / num2;
+    if (num2 == 0){
+        alert ("Anda, ponte serio, todos sabemos que no se puede dividir por cero");
+    }
 }
 
 
